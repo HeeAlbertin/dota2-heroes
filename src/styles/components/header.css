@@ -1,0 +1,22 @@
+@font-face {
+  font-family: "Constantia";
+  src: url("/fonts/Constantia.otf");
+}
+
+img {
+  width: 100px;
+  vertical-align:middle;
+  margin-right: 10px;
+}
+
+.header {
+  text-align: center;
+  margin: 10px;
+}
+
+.header__title {
+  font-family: "Constantia";
+  font-size: 4.5rem;
+  letter-spacing: 10px;
+  vertical-align:middle;
+}
