@@ -1,18 +1,16 @@
 import React, { Component } from 'react'
 
-import Header from '../components/header'
-
 import '../styles/components/header.css'
 
-class App extends Component {
+class Header extends Component {
   render() {
     return (
       <header className="header">
-          <img src="/images/logo.png" />
-          <span className="header__title main-color">DOTA 2</span>
+        <img alt="Logo Dota2" src="/images/logo.png" />
+        <span className="header__title main-color">DOTA 2</span>
       </header>
     )
   }
 }
 
-export default App
+export default Header

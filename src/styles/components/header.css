@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Constantia";
-  src: url("/fonts/Constantia.otf");
+  src: url("/fonts/Constantia.ttf");
 }
 
 img {
@@ -11,7 +11,7 @@ img {
 
 .header {
   text-align: center;
-  margin: 10px;
+  margin: 10px 10px 30px 10px;
 }
 
 .header__title {
