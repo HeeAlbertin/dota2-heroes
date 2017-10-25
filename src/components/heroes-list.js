@@ -9,7 +9,7 @@ import '../styles/components/heroes-list.css'
 const RenderList = (heroes) => {
     return heroes.map((hero) => {
         return (
-          <div key={hero.id}>
+          <div key={ hero.id }>
             <Hero { ...hero } />
           </div>
         )
@@ -18,9 +18,9 @@ const RenderList = (heroes) => {
 
 const HeroesList = (props) => {
   return (
-    <div className="heroes-list">
+    <div>
       <Container>
-        <Row>
+        <Row className="heroes-list">
           { RenderList(props.heroes) }
         </Row>
       </Container>

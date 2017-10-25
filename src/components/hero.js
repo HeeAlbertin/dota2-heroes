@@ -8,12 +8,13 @@ const Hero = (hero) => {
   // remove the sufix "npc_dota_hero_", to get the correct image, using substr
   return (
     <div className="hero">
-      <img
-          className="img-responsive"
-          alt=""
-          src={IMG_BASE_URL + hero.name.substr(14, hero.name.length) + '_sb.png'}
-      />
       <div className="hero__info">
+        <img
+            id={ hero.id }
+            alt={ hero.name }
+            src={ IMG_BASE_URL + hero.name.substr(14, hero.name.length) + '_hphover.png' }
+        />
+
         <p className="hero__name">
           { hero.localized_name }
         </p>

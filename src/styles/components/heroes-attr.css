@@ -1,0 +1,15 @@
+.heroes-attr {
+  color: #FFF;
+}
+
+.heroes-attr__name {
+  font-weight: bold;
+}
+
+.heroes-attr__info {
+  margin: 0 0 20px 10px;
+}
+
+.heroes-attr__info img {
+  width: 50px;
+}

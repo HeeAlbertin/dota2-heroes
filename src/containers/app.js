@@ -7,7 +7,7 @@ import { bindActionCreators } from 'redux'
 
 /* COMPONENTS IMPORTS */
 import Header from '../components/header'
-import HeroesList from '../components/heroes-list'
+import HeroesAttr from '../components/heroes-attr'
 /* END COMPONENTS IMPORTS */
 
 /* ACTIONS IMPORTS */
@@ -27,7 +27,7 @@ class App extends Component {
     return (
       <div className="container">
         <Header />
-        <HeroesList heroes={this.props.heroes} />
+        <HeroesAttr heroes={this.props.heroes} />
       </div>
     )
   }
